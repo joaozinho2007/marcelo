@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+div{
+  display: inline-block;
+  align-items: center;
+  background-color: rgb(17, 3, 145);
+  margin-bottom: 30px;
+  
+}
+
+h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 15px;
+  color:yellow;
+}
