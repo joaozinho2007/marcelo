@@ -1,0 +1,72 @@
+@media(max-width:600px){
+
+:root{
+    font-size:8px;
+}
+/* alinha em coluna um abaixo do outro */
+body{
+    flex-direction:column;
+}
+
+main{
+    flex-direction:column;
+    height: 100px;
+    padding:5% 0 5% 0;
+
+}
+/* configurações das nossas informaçoes no inicio da aplicação */
+#container-propaganda{
+    /*     /*flex-basis:unsent=nao definido; é uma propriedade que utilizamos quando há a possibilidade de usar o flex-grow(neste caso nao usaremos o grow) para "esticarmos" o elemento. Ele servirá, como o próprio nome diz, como uma base para eles. Se não alterar o valor padrão do flex-basis (auto), o valor usado como base será a largura e altura do próprio elemento. */
+    
+    flex-basis:unset;
+}
+
+
+#container-propaganda h1{
+    text-align:center;
+
+}
+
+#container-propaganda p{
+    margin: top 5px;
+    text-align:center;
+    margin-bottom:5%;
+}
+
+/* configuração do nosso formulario */
+
+#container-cadastramento form{
+/* aqui temos uma altura nao definida */
+    height:unset;
+}
+
+#container-cadastramento #container-oferta p{
+    width:40%;
+    margin:0 auto;
+
+}
+/* A pseudo-classe nth-child é usada com apenas um argumento, que representa o padrão usado para selecionar os elementos. */
+form input:nth-child(n+1){
+    margin-bottom: 3% !important;
+}
+#container-cadastramento form input{
+    padding:6%;
+}
+
+#container-cadastramento form button{
+margin-top:5%;
+padding:4%;
+}
+#container-cadastramento form button:hover{
+    background:#048d2db7;
+}
+#container-cadastramento form p{
+    margin-top:8%;
+    width:60%;
+    text-align:center;
+}
+
+
+
+
+}

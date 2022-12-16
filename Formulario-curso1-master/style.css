@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 14px;
+
+  /* declando as variaveis de cor e font */
+  --color-background: #ff7978;
+  --color-background-shadow: #f56868;
+  --color-one: #5d54a3;
+  --color-two: #37cc8a;
+  --color-three: #30a872;
+  --font-primary: "Poppins", sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:var(--color-background);
+
+    background-image: url(imagens/img-fundo.png
+    );
+}
+
+/* configurações do main */
+
+main{
+    width: 80%;
+    height:60vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    margin:0 auto;
+
+    color:white;
+
+    font-family: var(--font-primary);
+}
+
+/* configuração da propaganda */
+
+    #container-propaganda{
+        /*flex-basis: 50%; é uma propriedade que utilizamos quando há a possibilidade de usar o flex-grow(neste caso nao usaremos o grow) para "esticarmos" o elemento. Ele servirá, como o próprio nome diz, como uma base para eles. Se não alterar o valor padrão do flex-basis (auto), o valor usado como base será a largura e altura do próprio elemento. */
+        
+        flex-basis: 50%;
+
+
+    }
+
+    #container-propaganda h1{
+        font-size: 4rem;
+        line-height: 125%;
+    }
+    
+    #container-propaganda p{
+        margin-top: 2%;
+        width:90%;
+        font-size: 1.1rem;
+    }
+
+    /* CADASTRAMENTO */
+
+    #container-cadastramento{
+        flex-basis: 50%;
+        height:100%;
+    }
+
+    #container-cadastramento #container-oferta{
+        padding: 3%;
+        background-color:var(--color-one);
+        text-align:center;
+        border-radius:0px 8px 0;
+        margin-bottom: 5%;
+
+        box-shadow: var(--color-background-shadow);
+    }
+
+    #container-cadastramento form{
+        background-color:white;
+        height: 100%;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+        border-radius: 8px;
+        padding:3% 0 3% 0;
+
+        box-shadow: 0px 8px var(--color-background-shadow);
+
+    }
+
+    #container-cadastramento input{
+        width:85%;
+        margin:0 auto;
+        padding: 2%;
+        font-size: 1.2rem;
+
+        font-family:var(--font-primary);
+
+        border-radius:8px;
+        border: 1px solid black;
+    }
+
+    #container-cadastramento input:focus{
+        outline: none;
+    }
+/* aqui estamos dando uma opacidade de 4 para os nossos dizeres dentro dos input */
+    #container-cadastramento input::placeholder{
+        opacity: .4;
+    }
+
+        #container-cadastramento button{
+            padding: 2%;
+            width: 85%;
+            text-align: center;
+            text-transform: uppercase;
+            background-color:var(--color-two);
+            color: white;
+            border:none;
+            box-shadow: 0 5px 0 var(--color-three);
+
+            font-size:1.2rem;
+            font-family: var(--font-primary);
+            font-weight:600;
+         }
+        
+         #container-cadastramento button:hover{
+            background:#048d2db7;
+        }
+        
+        
+        #container-cadastramento p{
+
+            filter:brightness(.8);
+            font-weight: 400;
+        }
+        #container-cadastramento a{
+            text-decoration:none;
+            color:var(--color-background);
+            font-weight:600;
+        }

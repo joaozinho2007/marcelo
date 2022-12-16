@@ -1,0 +1,7 @@
+Neste projeto foi usado um layout, do site " front-end mentor", para fins de estudo.
+
+Foi criado uma tag main que engloba todo o projeto, que semanticamente significa que "ali esta meu conteudo principal",este formulario tambem foi dividido em duas seções, com as suas respectivas <div>.
+
+Todo o css esta de acordo com que esta acontecendo no HTML,todas as regras css usadas estao comentadas de acondo com a necessidade de entendimento.
+
+Francine Hollweg! data: 12/07/2021
