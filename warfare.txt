@@ -1,0 +1,11 @@
+Assistente Social: Conselho tutelar
+
+1- °Começar com uma homescreen com um cenário igual a de uma agência pedagógica
+pedindo ao usuário email e senha
+
+2- °Campos input.
+    Um bom background.
+    Abas da tela
+    Botões
+
+3- °Ñ sei desenhar.
