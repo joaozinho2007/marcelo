@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados de Exoplanetas</title>
+</head>
+<body>
+
+<h1>Dados de Exoplanetas</h1>
+
+<table border="1">
+    <tr>
+        <th>Nome</th>
+        <th>Massa (M_j)</th>
+        <th>Raio (R_j)</th>
+    </tr>
+    {% for planeta in dados %}
+        <tr>
+            <td>{{ planeta.nome }}</td>
+            <td>{{ planeta.massa }}</td>
+            <td>{{ planeta.raio }}</td>
+        </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
